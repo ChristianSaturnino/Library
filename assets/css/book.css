@@ -1,0 +1,34 @@
+img {
+    max-width: 20%; /* Define a largura máxima como 100% do contêiner pai */
+    max-height: auto; /* Define a altura máxima como automática para manter a proporção da imagem */
+    width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+    margin-top: 5%; /* Define a margem superior como 5% da altura do contêiner pai */
+    margin-left: 5%; /* Define a margem esquerda como 5% */
+    margin-right: auto; /* Define a margem direita como automática para centralizar horizontalmente */
+}
+
+.book-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.book-details {
+    position: absolute;
+    top: 15%; /* Ajuste a distância do topo usando porcentagem */
+    left: 30%; /* Ajuste a distância da esquerda usando porcentagem */
+    color: white;
+}
+
+#edit, #delete{
+    width: 100px;
+}
+
+.btn-adm form {
+    display: inline; /* Faz com que os formulários se comportem como elementos de linha */
+    margin-right: 10px; /* Adiciona um espaço entre os botões */
+}
+
+.btn-form{
+    margin-bottom: 125px;
+}
